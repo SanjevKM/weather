@@ -3,9 +3,9 @@ import axios from "axios";
 
 const App = () => {
   // State variables
-  const [city, setCity] = useState(""); // User input for city
-  const [weather, setWeather] = useState(null); // Weather data
-  const [error, setError] = useState(null); // Error message
+  const [city, setCity] = useState(""); 
+  const [weather, setWeather] = useState(null); 
+  const [error, setError] = useState(null); 
 
   // API configuration
   const API_KEY = "879c7f87869644c3836163352250801"; 
